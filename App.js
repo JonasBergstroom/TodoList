@@ -5,12 +5,12 @@ import Task from './components/Task'
 export default function App() {
   return (
     <View style={styles.container}>
-
       <View style={styles.tasksWrapper}>
         <Text style={styles.sectionTitle}>Tasks of the day</Text>
 
         <View style={styles.items}>
-          <Task />
+          <Task text={"Task 1"} />
+          <Task text={"Task 2"} />
         </View>
 
       </View>
