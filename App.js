@@ -14,7 +14,7 @@ export default function App() {
         </View>
 
       </View>
-      
+
     </View>
   );
 }
@@ -32,5 +32,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: "bold",
   },
-  items: {},
+  items: {
+    marginTop: 25,
+  },
 });
